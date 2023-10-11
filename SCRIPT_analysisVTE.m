@@ -758,22 +758,22 @@ figure('Color','w')
 subplot 211; bar(numDelayVTE1{1},'stacked', FaceColor='flat');
 ylabel('Number of VTE trials at each delay')
 xlabel('Rat')
-legend('short', 'mediuim', 'long')
+legend('short', 'medium', 'long')
 subplot 212; bar(numDelayVTE1{2},'stacked', FaceColor='flat');
 xlabel('Rat')
 ylabel('Number of VTE trials at each delay')
-legend('short', 'mediuim', 'long')
+legend('short', 'medium', 'long')
 
 numDelayVTE2{1}(8,:)=[]; %exclude rat 8
 figure('Color','w')
 subplot 211; bar(numDelayVTE2{1},'stacked', FaceColor='flat');
 ylabel('Number of VTE trials at each delay')
 xlabel('Rat')
-legend('short', 'mediuim', 'long')
+legend('short', 'medium', 'long')
 subplot 212; bar(numDelayVTE2{2},'stacked', FaceColor='flat');
 xlabel('Rat')
 ylabel('Number of VTE trials at each delay')
-legend('short', 'mediuim', 'long')
+legend('short', 'medium', 'long')
 
 
 % vte choice accuracy by delay
