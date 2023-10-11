@@ -1,4 +1,6 @@
 %% SCRIPT_analysisLFP
+% coherence and power analysis 
+
 load('data_analysis_aroundCP_22-Sep-2023.mat')
 
 % prep cells - maintain session structure
