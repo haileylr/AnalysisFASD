@@ -1,4 +1,7 @@
 %% VTE analysis
+% calculate IdPhi, determine VTE threshold, examine identified VTE trials
+% analyze proportion of VTE trials in AE vs SI rats and relationship to choice accuracy and delay length 
+
 clear;
 datafolder = '/Users/haileyrosenblum/Desktop/Matlab/Data output';
 cd(datafolder);
